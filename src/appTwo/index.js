@@ -12,7 +12,7 @@ class Person {
   }
 
   greet() {
-    console.log(`Hello, ${this.name}`);
+    console.log(`Hello, ${name}`);
   }
 }
 
