@@ -8,3 +8,7 @@ class Car {
     console.log(`This ones a beaut. Great example of a ${make} ${model}`);
   }
 }
+
+var a = new Car("Jeep", "Cherokee");
+
+a.talkShop();
