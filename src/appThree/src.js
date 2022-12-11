@@ -3,7 +3,7 @@ function doThing(data) {
 }
 
 function getThing() {
-  return "data";
+  return `data => ${Math.floor(100 * Math.random())}`;
 }
 
 function buildExecutor() {
