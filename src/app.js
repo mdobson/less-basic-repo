@@ -5,7 +5,9 @@ class Car {
   }
 
   talkShop() {
-    console.log(`This ones a beaut. Great example of a ${make} ${model}`);
+    console.log(
+      `This ones a beaut. Great example of a ${this.make} ${this.model}`
+    );
   }
 }
 
